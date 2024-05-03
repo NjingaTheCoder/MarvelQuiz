@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Lilita+One&family=Pacifico&family=Press+Start+2P&family=Rowdies:wght@300;400;700&family=Rubik+Gemstones&family=Rubik+Scribble&family=Tac+One&family=Workbench&display=swap');
+
+:root{
+
+  --theme-font : "Rowdies", sans-serif;
+}
+
+body , html {
+
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.superhero-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: var(--theme-font);
+  align-items: center;
+  background-color: rgb(152, 20, 20);
+  color: white;
+  height: 100vh;
+}
+
+h1{
+
+  font-size: 2.5rem;
+}

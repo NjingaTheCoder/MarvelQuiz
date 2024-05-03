@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Lilita+One&family=Pacifico&family=Press+Start+2P&family=Rowdies:wght@300;400;700&family=Rubik+Gemstones&family=Rubik+Scribble&family=Tac+One&family=Workbench&display=swap');
+
+:root{
+
+  --theme-font : "Rowdies", sans-serif;
+}
+
+.quiz-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--theme-font) ;
+    gap: 1rem;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+input{
+
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+
+
+
+.anwser{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.superhero-slider{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    font-family: var(--theme-font);
+    border: 1px solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
